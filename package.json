@@ -1,0 +1,12 @@
+{
+  "name": "mbox-application",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOX - Enterprise Cryptographic Discovery & Analysis Tool",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "node backend/server.js",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}

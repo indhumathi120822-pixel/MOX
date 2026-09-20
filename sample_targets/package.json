@@ -1,0 +1,9 @@
+{
+  "name": "sample-crypto-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "bouncycastle": "1.68.0",
+    "crypto-js": "4.1.1",
+    "express": "4.18.2"
+  }
+}

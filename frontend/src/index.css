@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mox-bg: #0B1220;
+  --mox-card: #111A2B;
+  --mox-raised: #16223A;
+  --mox-border: #22304A;
+  --mox-text: #E6EBF5;
+  --mox-muted: #93A0B8;
+  --mox-teal: #2BB6A3;
+  --mox-teal-hover: #35C9B5;
+
+  --p1-critical: #F0504A;
+  --p2-high: #F59E0B;
+  --p3-medium: #E0C14B;
+  --p4-low: #4CB782;
+}
+
+body {
+  margin: 0;
+  background-color: #0B1220;
+  color: #E6EBF5;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+/* Severity Badge Utilities */
+.badge-p1 {
+  background-color: #F0504A !important;
+  color: #FFFFFF !important;
+}
+.badge-p2 {
+  background-color: #F59E0B !important;
+  color: #FFFFFF !important;
+}
+.badge-p3 {
+  background-color: #E0C14B !important;
+  color: #0F172A !important;
+  font-weight: 800 !important;
+}
+.badge-p4 {
+  background-color: #4CB782 !important;
+  color: #FFFFFF !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1220;
+}
+::-webkit-scrollbar-thumb {
+  background: #22304A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2BB6A3;
+}
